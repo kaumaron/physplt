@@ -8,4 +8,7 @@ setup(name='physplt',
       author_email='andrew.decotiis.mauro@gmail.com',
       license='GPL-3.0+',
       packages=['physplt'],
+      install_requires=[
+          'matplotlib',
+      ],
       zip_safe=False)
